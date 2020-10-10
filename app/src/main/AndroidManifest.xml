@@ -11,10 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".views.activities.DemoActivity"></activity>
-        <activity android:name=".views.activities.SplashScreenActivity">
-
-        </activity>
+        <activity android:name=".views.activities.DummyActivity"></activity>
+        <activity android:name=".views.activities.DemoActivity" />
+        <activity android:name=".views.activities.SplashScreenActivity"></activity>
         <activity android:name=".views.activities.InfoActivity" />
         <activity android:name=".views.activities.MainActivity">
             <intent-filter>
